@@ -3,11 +3,13 @@ DIRECT_DRIVE_ID := urn:adsk.wipprod:dm.lineage:FxmAon5NSJe1PX8D-Y2Svg
 RENDER_QUALITY := ShadedWithVisibleEdgesOnly
 PYTHON := python3
 VPYTHON := FusionAddons/FusionHeadless/.venv/bin/python3
+VPYTHON_VERSION := $(shell $(VPYTHON) -c "import sys;print(f'python{sys.version_info.major}.{sys.version_info.minor}')")
+VPYTHON_PACKAGES := FusionAddons/FusionHeadless/.venv/lib64/$(VPYTHON_VERSION)/site-packages
 SEND := $(VPYTHON) FusionAddons/FusionHeadless/send.py
 
 .PHONY: all images clean obj/STLs update_assembly
 all: \
-	FusionAddons/FusionHeadless/.venv/lib64/python3.12/site-packages/pygments/__init__.py \
+	$(VPYTHON_PACKAGES)/pygments/__init__.py \
 	update_assembly \
 	obj/STLs \
 	CAD/Assembly.zip \
@@ -31,7 +33,7 @@ images: \
 ##    ## ##          ##    ##     ## ##
  ######  ########    ##     #######  ##
 
-FusionAddons/FusionHeadless/.venv/lib64/python3.12/site-packages/pygments/__init__.py: FusionAddons/FusionHeadless/requirements.txt FusionAddons/FusionHeadless/Makefile
+$(VPYTHON_PACKAGES)/pygments/__init__.py: FusionAddons/FusionHeadless/requirements.txt FusionAddons/FusionHeadless/Makefile
 	cd FusionAddons/FusionHeadless && make && cd ../.. && touch $@
 
 obj/Assembly.json:
