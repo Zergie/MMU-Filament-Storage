@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-labelledby="title desc">
+  <title id="title">YAMMU filament path</title>
+  <desc id="desc">Eight enclosed spools converge through twin BLDC feeders, filament sensing, and the printer toolhead.</desc>
+  <rect width="1200" height="330" rx="24" fill="#f4f5f2"/>
+  <text x="56" y="54" fill="#687169" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15" letter-spacing="2">FILAMENT PATH · CONCEPTUAL OVERVIEW</text>
+
+  <g font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
+    <g transform="translate(56 92)">
+      <rect width="258" height="178" rx="16" fill="#ffffff" stroke="#c9cec9"/>
+      <text x="22" y="34" fill="#161a17" font-size="20" font-weight="700">Heated storage</text>
+      <text x="22" y="58" fill="#687169" font-size="14">8 spools · twin drawers</text>
+      <g fill="none" stroke="#3d8434" stroke-width="3">
+        <circle cx="47" cy="101" r="20"/><circle cx="99" cy="101" r="20"/><circle cx="151" cy="101" r="20"/><circle cx="203" cy="101" r="20"/>
+        <circle cx="47" cy="145" r="20"/><circle cx="99" cy="145" r="20"/><circle cx="151" cy="145" r="20"/><circle cx="203" cy="145" r="20"/>
+      </g>
+    </g>
+
+    <path d="M326 181H388" stroke="#e65a4f" stroke-width="4"/><path d="M378 173L390 181L378 189" fill="none" stroke="#e65a4f" stroke-width="4"/>
+    <g transform="translate(402 111)">
+      <rect width="200" height="140" rx="16" fill="#172019"/>
+      <text x="22" y="36" fill="#f3f5f1" font-size="20" font-weight="700">Twin feeders</text>
+      <text x="22" y="60" fill="#aab3ab" font-size="14">BLDC-driven loading</text>
+      <circle cx="63" cy="101" r="23" fill="none" stroke="#e65a4f" stroke-width="5"/><circle cx="137" cy="101" r="23" fill="none" stroke="#e65a4f" stroke-width="5"/>
+      <circle cx="63" cy="101" r="6" fill="#f3f5f1"/><circle cx="137" cy="101" r="6" fill="#f3f5f1"/>
+    </g>
+
+    <path d="M614 181H676" stroke="#e65a4f" stroke-width="4"/><path d="M666 173L678 181L666 189" fill="none" stroke="#e65a4f" stroke-width="4"/>
+    <g transform="translate(690 121)">
+      <rect width="170" height="120" rx="16" fill="#ffffff" stroke="#c9cec9"/>
+      <text x="20" y="36" fill="#161a17" font-size="20" font-weight="700">Sense</text>
+      <text x="20" y="60" fill="#687169" font-size="14">Splitter + switch</text>
+      <path d="M35 92H78L101 76M78 92L101 108H137" fill="none" stroke="#3d8434" stroke-width="5" stroke-linecap="round"/>
+    </g>
+
+    <path d="M872 181H934" stroke="#e65a4f" stroke-width="4"/><path d="M924 173L936 181L924 189" fill="none" stroke="#e65a4f" stroke-width="4"/>
+    <g transform="translate(948 111)">
+      <rect width="196" height="140" rx="16" fill="#ffffff" stroke="#c9cec9"/>
+      <text x="20" y="36" fill="#161a17" font-size="20" font-weight="700">Toolhead</text>
+      <text x="20" y="60" fill="#687169" font-size="14">Final filament sensor</text>
+      <path d="M38 88H158V105H116L105 124H91L80 105H38Z" fill="#172019"/>
+      <circle cx="98" cy="98" r="8" fill="#e65a4f"/>
+    </g>
+  </g>
+</svg>
+
+

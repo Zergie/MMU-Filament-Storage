@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="480" viewBox="0 0 1200 480" role="img" aria-labelledby="title desc">
+  <title id="title">YAMMU current roadmap</title>
+  <desc id="desc">Version 1.0 covers the custom PCB, loading and unloading, filament sensing, and BLDC motion. Version 1.1 adds the heated filament chamber and temperature and humidity monitoring.</desc>
+  <rect width="1200" height="480" rx="24" fill="#0b0e0c"/>
+  <path d="M600 0V480" stroke="#263128"/>
+
+  <g id="roadmap-heading" transform="translate(56 48)">
+    <text x="0" y="0" fill="#88b780" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16" letter-spacing="2">CURRENT ROADMAP · TWO-STAGE BUILD</text>
+    <text x="0" y="48" fill="#f3f5f1" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="34" font-weight="700">Move filament reliably. Then control its environment.</text>
+  </g>
+
+  <g id="progress-rail" transform="translate(56 128)">
+    <path d="M20 20H1068" stroke="#3a433b" stroke-width="4" stroke-linecap="round"/>
+    <path d="M20 20H544" stroke="#3d8434" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="20" cy="20" r="15" fill="#0b0e0c" stroke="#3d8434" stroke-width="5"/>
+    <circle cx="544" cy="20" r="15" fill="#0b0e0c" stroke="#e65a4f" stroke-width="5"/>
+    <circle cx="1068" cy="20" r="15" fill="#0b0e0c" stroke="#697169" stroke-width="5"/>
+    <circle cx="20" cy="20" r="5" fill="#88b780"/>
+    <circle cx="544" cy="20" r="5" fill="#e65a4f"/>
+    <circle cx="1068" cy="20" r="5" fill="#697169"/>
+  </g>
+
+  <g id="v1-stage" transform="translate(56 184)">
+    <text x="0" y="0" fill="#88b780" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16" font-weight="700" letter-spacing="2">V1.0 · WORKING MMU WITH HAPPY HARE FORK</text>
+    <rect x="0" y="28" width="512" height="232" rx="18" fill="#121713" stroke="#334036"/>
+    <g transform="translate(28 66)" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="18" fill="#e5e9e4">
+      <circle cx="7" cy="0" r="6" fill="#3d8434"/>
+      <text x="28" y="7">Custom control PCB</text>
+      <circle cx="7" cy="48" r="6" fill="#3d8434"/>
+      <text x="28" y="55">Loading and unloading before a print</text>
+      <circle cx="7" cy="96" r="6" fill="#3d8434"/>
+      <text x="28" y="103">Filament sensing at the splitter and toolhead</text>
+      <circle cx="7" cy="144" r="6" fill="#3d8434"/>
+      <text x="28" y="151">BLDC-driven loading and unloading of filament</text>
+    </g>
+  </g>
+
+  <g id="v1-1-stage" transform="translate(632 184)">
+    <text x="0" y="0" fill="#e65a4f" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16" font-weight="700" letter-spacing="2">V1.1 · HEATED CHAMBER + MONITORING</text>
+    <rect x="0" y="28" width="512" height="232" rx="18" fill="#171311" stroke="#4a302c"/>
+    <g transform="translate(28 74)" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="18" fill="#e5e9e4">
+      <circle cx="7" cy="0" r="6" fill="#e65a4f"/>
+      <text x="28" y="7">Heated filament chamber for dry storage</text>
+      <text x="28" y="33">while printing</text>
+      <circle cx="7" cy="92" r="6" fill="#e65a4f"/>
+      <text x="28" y="99">Environment sensor for temperature and</text>
+      <text x="28" y="125">humidity monitoring</text>
+    </g>
+  </g>
+</svg>
