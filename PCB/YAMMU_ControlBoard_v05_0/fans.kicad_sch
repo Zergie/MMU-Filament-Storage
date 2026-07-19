@@ -1,0 +1,298 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "c33976cf-7883-4380-8f70-b8dd2e0e334e")
+	(paper "A4")
+	(title_block
+		(title "YAMMU_ControlBoard")
+		(date "2026-07-08")
+		(rev "05")
+		(comment 1 "Designer: Philipp Tilser")
+	)
+	(lib_symbols)
+	(bus_entry
+		(at 113.03 77.47)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36419dbd-2e1a-4ec6-9b63-fe6c72429da1")
+	)
+	(bus_entry
+		(at 113.03 100.33)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42f6cd4b-6fb3-47e0-bc47-63143711023d")
+	)
+	(bus_entry
+		(at 113.03 88.9)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbcda22d-593b-444e-b240-8ad3dab39a32")
+	)
+	(bus
+		(pts
+			(xy 113.03 88.9) (xy 113.03 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25f113b9-be9a-4f3b-b082-8c4c598bdc0a")
+	)
+	(wire
+		(pts
+			(xy 115.57 102.87) (xy 138.43 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34f3389c-eea8-479c-b5aa-7712f8ec5bc2")
+	)
+	(wire
+		(pts
+			(xy 115.57 80.01) (xy 138.43 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52e91f2e-a48b-491b-b610-345e5b99417f")
+	)
+	(wire
+		(pts
+			(xy 115.57 91.44) (xy 138.43 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c586750-3c07-4b73-8f2e-1026d825f3f8")
+	)
+	(bus
+		(pts
+			(xy 113.03 77.47) (xy 113.03 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ce7ae1d-e954-4224-a551-5e4e7bb18a0e")
+	)
+	(bus
+		(pts
+			(xy 104.14 77.47) (xy 113.03 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f434729a-0596-46b8-a27e-43f9f82e7c83")
+	)
+	(label "FanEnable0"
+		(at 118.11 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3da92305-998a-45c3-aa18-ae4862ec703f")
+	)
+	(label "FanEnable1"
+		(at 118.11 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3da92305-998a-45c3-aa18-ae4862ec7040")
+	)
+	(label "FanEnable2"
+		(at 118.11 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3da92305-998a-45c3-aa18-ae4862ec7041")
+	)
+	(hierarchical_label "FanEnable[0..2]"
+		(shape input)
+		(at 104.14 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c56d795f-c40d-4fa2-a52c-6e6d6137c1cf")
+	)
+	(sheet
+		(at 138.43 77.47)
+		(size 19.05 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "049039ad-9465-4418-acf5-bc3c2ad998da")
+		(property "Sheetname" "FanOut0"
+			(at 138.43 76.7584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fan.kicad_sch"
+			(at 138.43 83.1346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Enable" input
+			(at 138.43 80.01 180)
+			(uuid "f147e63c-0a68-4407-9cb6-214c1bdca43b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "YAMMU_ControlBoard_v05"
+				(path "/56b2a4b2-41b7-4cd4-b17b-ae1a06333e23/d52e106e-1afe-420f-a47c-f5f980aa5b90"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 138.43 100.33)
+		(size 19.05 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ce93ca9e-d719-4caa-8e88-93b884504fd2")
+		(property "Sheetname" "FanOut2"
+			(at 138.43 99.6184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fan.kicad_sch"
+			(at 138.43 105.9946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Enable" input
+			(at 138.43 102.87 180)
+			(uuid "7c0d1671-910b-41e2-9a93-12d45d564a54")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "YAMMU_ControlBoard_v05"
+				(path "/56b2a4b2-41b7-4cd4-b17b-ae1a06333e23/d52e106e-1afe-420f-a47c-f5f980aa5b90"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 138.43 88.9)
+		(size 19.05 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e5d1a848-7e13-49cf-bcfa-80ffbbb9e873")
+		(property "Sheetname" "FanOut1"
+			(at 138.43 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fan.kicad_sch"
+			(at 138.43 94.5646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Enable" input
+			(at 138.43 91.44 180)
+			(uuid "569fbc0f-a659-45a8-823b-e3c2b73486fa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "YAMMU_ControlBoard_v05"
+				(path "/56b2a4b2-41b7-4cd4-b17b-ae1a06333e23/d52e106e-1afe-420f-a47c-f5f980aa5b90"
+					(page "4")
+				)
+			)
+		)
+	)
+)

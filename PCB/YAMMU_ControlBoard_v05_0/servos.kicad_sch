@@ -1,0 +1,1707 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "5ff1a5e5-e8e0-4b17-8fda-531a3a3b26b4")
+	(paper "A4")
+	(title_block
+		(title "YAMMU_ControlBoard")
+		(date "2026-07-08")
+		(rev "05")
+		(comment 1 "Designer: Philipp Tilser")
+	)
+	(lib_symbols
+		(symbol "Device:FerriteBead_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "FB"
+				(at 1.905 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "FerriteBead_Small"
+				(at 1.905 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Ferrite bead, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "L ferrite bead inductor filter"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Inductor_* L_* *Ferrite*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "FerriteBead_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.8288 0.2794) (xy -1.1176 1.4986) (xy 1.8288 -0.2032) (xy 1.1176 -1.4224) (xy -1.8288 0.2794)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.889) (xy 0 1.2954)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -0.7874)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "FerriteBead_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+5V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 123.19 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1bdfbaf1-0f02-4840-815d-0a5ec343587a")
+	)
+	(junction
+		(at 128.27 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f08986c-62f6-4a73-9545-d73f53214aa8")
+	)
+	(junction
+		(at 123.19 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8fa32c36-6e8c-4a1d-b37e-499849d1f8ce")
+	)
+	(junction
+		(at 123.19 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7606a71-5c97-49ea-8910-dfb042e93294")
+	)
+	(junction
+		(at 123.19 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b98c8a90-232f-4b19-a8c7-4f271876529e")
+	)
+	(junction
+		(at 128.27 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d2fe7a29-47d4-4e1b-8f14-c0f988f6b4af")
+	)
+	(junction
+		(at 128.27 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e191fdb9-5b97-4b59-8921-c6b6d6027fde")
+	)
+	(junction
+		(at 128.27 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e37f667d-d11c-4380-8304-21cb9d05b493")
+	)
+	(junction
+		(at 123.19 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ec792036-8569-4d3f-9374-ad3314ea0e18")
+	)
+	(junction
+		(at 128.27 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb780641-998f-4a7e-907e-87d5f881119a")
+	)
+	(bus_entry
+		(at 100.33 74.93)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c4d2fe2-c6f0-428a-b840-b290cfd22078")
+	)
+	(bus_entry
+		(at 100.33 124.46)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15396c1d-dca5-41c5-a27d-e12b39fa2c9a")
+	)
+	(bus_entry
+		(at 100.33 58.42)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8081505a-2e58-4ccc-8cd9-3c3fb7fc3110")
+	)
+	(bus_entry
+		(at 100.33 142.24)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "891aeab3-f196-4378-b990-1c35036bc953")
+	)
+	(bus_entry
+		(at 100.33 107.95)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a22a063f-ee43-4829-9076-a3a2a424b6b0")
+	)
+	(bus_entry
+		(at 100.33 91.44)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a68403c1-bbd4-4d84-9dca-6a448648bc6c")
+	)
+	(wire
+		(pts
+			(xy 102.87 77.47) (xy 134.62 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "035d29cf-a8f3-454b-b877-b328201d7cd7")
+	)
+	(wire
+		(pts
+			(xy 134.62 80.01) (xy 128.27 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "079434e5-7c96-4f5b-8bc3-8bd93d705f99")
+	)
+	(bus
+		(pts
+			(xy 100.33 91.44) (xy 100.33 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08c58236-4b11-4e0d-9a7b-d200be93c2f7")
+	)
+	(wire
+		(pts
+			(xy 102.87 93.98) (xy 134.62 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d8d4995-390d-45de-93eb-54e741b8c3a2")
+	)
+	(bus
+		(pts
+			(xy 100.33 58.42) (xy 100.33 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "169b59e8-8ce6-45a4-b3cf-e782fb32364a")
+	)
+	(wire
+		(pts
+			(xy 102.87 144.78) (xy 134.62 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a0c18be-34c2-498b-9352-a3b5e0d5260e")
+	)
+	(wire
+		(pts
+			(xy 123.19 58.42) (xy 134.62 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d9e05fc-6d41-41e9-9164-562e87f354f3")
+	)
+	(wire
+		(pts
+			(xy 134.62 107.95) (xy 123.19 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21bd2d4c-a749-4114-a7e4-53e0bde51b7f")
+	)
+	(wire
+		(pts
+			(xy 128.27 63.5) (xy 128.27 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "277fdebc-c828-4d38-814e-313fd6ea8bf2")
+	)
+	(wire
+		(pts
+			(xy 102.87 60.96) (xy 134.62 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b3ce57f-a7ec-47e4-bdc7-f2cf4a1e1844")
+	)
+	(wire
+		(pts
+			(xy 123.19 124.46) (xy 123.19 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d99be49-d79b-42f4-872b-2b465fc23650")
+	)
+	(wire
+		(pts
+			(xy 128.27 96.52) (xy 128.27 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30b65a66-15f4-4d19-8d6e-fdd0f88650b2")
+	)
+	(wire
+		(pts
+			(xy 123.19 43.18) (xy 123.19 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cff0501-650b-4e61-8f85-b3ec2972616f")
+	)
+	(wire
+		(pts
+			(xy 134.62 96.52) (xy 128.27 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43fe5cfb-911c-46a7-ba67-bd02373e05ec")
+	)
+	(wire
+		(pts
+			(xy 134.62 74.93) (xy 123.19 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4578478a-4be4-4c5c-b230-fa1d71db2e18")
+	)
+	(wire
+		(pts
+			(xy 123.19 74.93) (xy 123.19 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47340f38-68b1-40e0-9de4-67685cbbd9d4")
+	)
+	(bus
+		(pts
+			(xy 72.39 58.42) (xy 100.33 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e0b375a-641e-4203-b623-e862347eb436")
+	)
+	(bus
+		(pts
+			(xy 100.33 74.93) (xy 100.33 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ec509c7-8d5f-4838-b10a-e6ab95349356")
+	)
+	(wire
+		(pts
+			(xy 128.27 113.03) (xy 128.27 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51cb7fcb-2bae-41ed-bf76-d5240979651a")
+	)
+	(wire
+		(pts
+			(xy 123.19 91.44) (xy 123.19 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7abd542a-1319-4891-bb73-b17b1f5857be")
+	)
+	(wire
+		(pts
+			(xy 102.87 110.49) (xy 134.62 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c006487-e196-456b-80d1-435a4999c3f8")
+	)
+	(wire
+		(pts
+			(xy 123.19 142.24) (xy 123.19 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "954113fe-4315-4b61-97ee-30da8882ed0f")
+	)
+	(wire
+		(pts
+			(xy 128.27 80.01) (xy 128.27 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a5c9eae-8f99-4013-a613-41da4594ecee")
+	)
+	(wire
+		(pts
+			(xy 134.62 91.44) (xy 123.19 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dd63397-62fc-46ea-a22c-e2eb74780668")
+	)
+	(bus
+		(pts
+			(xy 100.33 107.95) (xy 100.33 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4316a50-7949-4970-a25e-246259b0e98c")
+	)
+	(wire
+		(pts
+			(xy 123.19 52.07) (xy 123.19 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a485e7ab-5fa7-4592-ae30-33d6c0845e1a")
+	)
+	(bus
+		(pts
+			(xy 100.33 124.46) (xy 100.33 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5d8c12f-1ffd-4625-9230-85200ff5b416")
+	)
+	(wire
+		(pts
+			(xy 102.87 127) (xy 134.62 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaa9f578-36b1-4ed8-91f4-80c843593c5a")
+	)
+	(wire
+		(pts
+			(xy 134.62 63.5) (xy 128.27 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae008759-e7da-4ae8-bd3e-016429e33feb")
+	)
+	(wire
+		(pts
+			(xy 134.62 129.54) (xy 128.27 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bea33de5-1ab8-4dec-ac68-0f12165b0bc4")
+	)
+	(wire
+		(pts
+			(xy 134.62 113.03) (xy 128.27 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0e00f5a-aebb-4276-bd64-dd236478db82")
+	)
+	(wire
+		(pts
+			(xy 134.62 147.32) (xy 128.27 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce8b8034-6fa0-4aa0-90b7-65cc8c603eae")
+	)
+	(wire
+		(pts
+			(xy 123.19 107.95) (xy 123.19 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e86fe750-95bd-4435-bbe3-a5eee7f47504")
+	)
+	(wire
+		(pts
+			(xy 134.62 142.24) (xy 123.19 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea16c56e-51da-46db-a6e2-283d868f9bbe")
+	)
+	(wire
+		(pts
+			(xy 134.62 124.46) (xy 123.19 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea9bd59d-bff4-46b4-a391-3a863523e310")
+	)
+	(wire
+		(pts
+			(xy 128.27 160.02) (xy 128.27 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eef3a636-68f4-4812-a413-c34168cf369a")
+	)
+	(wire
+		(pts
+			(xy 128.27 147.32) (xy 128.27 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6be9b86-51df-422c-99e7-3ca2a210a2db")
+	)
+	(wire
+		(pts
+			(xy 128.27 129.54) (xy 128.27 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fccd355a-2d01-4d37-a3cd-26da6116be34")
+	)
+	(label "ServoSignal5"
+		(at 104.14 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5c11500f-3d70-4aa5-bffa-a795322d7687")
+	)
+	(label "ServoSignal2"
+		(at 104.14 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5c11500f-3d70-4aa5-bffa-a795322d7688")
+	)
+	(label "ServoSignal3"
+		(at 104.14 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5c11500f-3d70-4aa5-bffa-a795322d7689")
+	)
+	(label "ServoSignal4"
+		(at 104.14 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5c11500f-3d70-4aa5-bffa-a795322d768a")
+	)
+	(label "ServoSignal0"
+		(at 104.14 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5c11500f-3d70-4aa5-bffa-a795322d768b")
+	)
+	(label "ServoSignal1"
+		(at 104.14 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5c11500f-3d70-4aa5-bffa-a795322d768c")
+	)
+	(label "ServoSignal[0..5]"
+		(at 74.93 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a6773f31-f2b6-464d-94b4-fc2218fbb745")
+	)
+	(hierarchical_label "ServoSignal[0..5]"
+		(shape input)
+		(at 72.39 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "27255652-28ff-4e7c-bd66-710176d449f9")
+	)
+	(symbol
+		(lib_id "Device:FerriteBead_Small")
+		(at 123.19 49.53 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "47c2b43d-aa11-48d4-b13e-9882c80ad0cf")
+		(property "Reference" "FB30"
+			(at 125.6538 48.3559 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "600Ohm 3A"
+			(at 125.6538 50.7802 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1206_3216Metric"
+			(at 124.968 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588906738074456064"
+			(at 123.19 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ferrite bead, small symbol"
+			(at 123.19 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C357023"
+			(at 123.19 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB-Link" "https://jlcpcb.com/partdetail/TAITECH-HCB3216KF601T30/C357023"
+			(at 123.19 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "33495297-f242-4bf3-8331-48329e53e613")
+		)
+		(pin "2"
+			(uuid "989c8fbe-06c2-449d-838b-bd4499ca4008")
+		)
+		(instances
+			(project "YAMMU_ControllBoard_v01"
+				(path "/56b2a4b2-41b7-4cd4-b17b-ae1a06333e23/2659b17a-9f4f-42d2-8f22-9a89c81b5cec"
+					(reference "FB30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 128.27 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87fec448-0d19-4643-807f-6ac3ee478b6b")
+		(property "Reference" "#PWR0127"
+			(at 128.27 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 128.27 166.6931 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 128.27 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c98799ad-7330-4ac5-844b-d2e31f869aa3")
+		)
+		(instances
+			(project ""
+				(path "/56b2a4b2-41b7-4cd4-b17b-ae1a06333e23/2659b17a-9f4f-42d2-8f22-9a89c81b5cec"
+					(reference "#PWR0127")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:FerriteBead_Small")
+		(at 128.27 157.48 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a6308fdb-9d6d-4591-90c2-1755f09f1b66")
+		(property "Reference" "FB33"
+			(at 130.7338 156.3059 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "600Ohm 3A"
+			(at 130.7338 158.7302 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1206_3216Metric"
+			(at 130.048 157.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588906738074456064"
+			(at 128.27 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ferrite bead, small symbol"
+			(at 128.27 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C357023"
+			(at 128.27 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB-Link" "https://jlcpcb.com/partdetail/TAITECH-HCB3216KF601T30/C357023"
+			(at 128.27 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f7154c38-a1f9-4f2f-858b-c8e42929e903")
+		)
+		(pin "2"
+			(uuid "b324b0bf-8182-46cb-a447-71cbe3ac8e3c")
+		)
+		(instances
+			(project "YAMMU_ControllBoard_v01"
+				(path "/56b2a4b2-41b7-4cd4-b17b-ae1a06333e23/2659b17a-9f4f-42d2-8f22-9a89c81b5cec"
+					(reference "FB33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 123.19 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fba7fd12-ee89-454f-ac9b-ca103bce966e")
+		(property "Reference" "#PWR0121"
+			(at 123.19 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 123.19 39.0469 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 123.19 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "49de198b-89c8-4087-b85e-a528d91aac97")
+		)
+		(instances
+			(project ""
+				(path "/56b2a4b2-41b7-4cd4-b17b-ae1a06333e23/2659b17a-9f4f-42d2-8f22-9a89c81b5cec"
+					(reference "#PWR0121")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 134.62 88.9)
+		(size 20.32 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "391a5336-a083-426e-bae8-deafe3dc80a5")
+		(property "Sheetname" "Servo2"
+			(at 134.62 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "servo_output.kicad_sch"
+			(at 134.62 99.6446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GNDservo" input
+			(at 134.62 96.52 180)
+			(uuid "1bbe6811-f00d-4235-9968-66f0b4e45ad2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Signal" input
+			(at 134.62 93.98 180)
+			(uuid "bda6c12b-7240-4327-b8b2-43fc9a22984f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vservo" input
+			(at 134.62 91.44 180)
+			(uuid "34d41be3-7537-4957-bc78-219b5d754a5b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "YAMMU_ControlBoard_v05"
+				(path "/56b2a4b2-41b7-4cd4-b17b-ae1a06333e23/2659b17a-9f4f-42d2-8f22-9a89c81b5cec"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 134.62 72.39)
+		(size 20.32 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "406f6a82-ce5d-45ea-80c6-7e9935fee5d4")
+		(property "Sheetname" "Servo1"
+			(at 134.62 71.6784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "servo_output.kicad_sch"
+			(at 134.62 83.1346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GNDservo" input
+			(at 134.62 80.01 180)
+			(uuid "eaecfa31-b610-47c4-b8f2-bacffe11d97b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Signal" input
+			(at 134.62 77.47 180)
+			(uuid "93aa09c6-9267-4be8-b621-7de24bd6d2dd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vservo" input
+			(at 134.62 74.93 180)
+			(uuid "3eb527c1-9801-4b8a-be74-226908614dbe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "YAMMU_ControlBoard_v05"
+				(path "/56b2a4b2-41b7-4cd4-b17b-ae1a06333e23/2659b17a-9f4f-42d2-8f22-9a89c81b5cec"
+					(page "1")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 134.62 139.7)
+		(size 20.32 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "75e2abff-dd18-4779-a959-51b08b966e9c")
+		(property "Sheetname" "Servo5"
+			(at 134.62 138.9884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "servo_output.kicad_sch"
+			(at 134.62 150.4446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GNDservo" input
+			(at 134.62 147.32 180)
+			(uuid "334e85f5-ed66-4832-8828-3a1da06595ea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Signal" input
+			(at 134.62 144.78 180)
+			(uuid "e96dfe82-e1cf-4a99-9bc0-d561703d4cad")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vservo" input
+			(at 134.62 142.24 180)
+			(uuid "23fa98f0-10a0-4a4c-addd-3ba693eda50f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "YAMMU_ControlBoard_v05"
+				(path "/56b2a4b2-41b7-4cd4-b17b-ae1a06333e23/2659b17a-9f4f-42d2-8f22-9a89c81b5cec"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 134.62 105.41)
+		(size 20.32 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7b439620-3850-452c-869b-b1d73f40cb41")
+		(property "Sheetname" "Servo3"
+			(at 134.62 104.6984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "servo_output.kicad_sch"
+			(at 134.62 116.1546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GNDservo" input
+			(at 134.62 113.03 180)
+			(uuid "2948488d-b52a-4e61-b8b3-b317883ce5c3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Signal" input
+			(at 134.62 110.49 180)
+			(uuid "ac8f21bf-01de-445c-8a91-b045bd42e55b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vservo" input
+			(at 134.62 107.95 180)
+			(uuid "7e8d0f6b-4c2e-43c3-ace4-6aeabf09c8c2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "YAMMU_ControlBoard_v05"
+				(path "/56b2a4b2-41b7-4cd4-b17b-ae1a06333e23/2659b17a-9f4f-42d2-8f22-9a89c81b5cec"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 134.62 121.92)
+		(size 20.32 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8e35d936-2e77-41f4-8105-996dc5f47352")
+		(property "Sheetname" "Servo4"
+			(at 134.62 121.2084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "servo_output.kicad_sch"
+			(at 134.62 132.6646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GNDservo" input
+			(at 134.62 129.54 180)
+			(uuid "31723935-77ea-4c1d-976e-ac4d56903895")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Signal" input
+			(at 134.62 127 180)
+			(uuid "77bae8f5-6c11-4e64-8237-8870ec3825ff")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vservo" input
+			(at 134.62 124.46 180)
+			(uuid "980ff392-7a12-4693-a5e6-ed498ca8828f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "YAMMU_ControlBoard_v05"
+				(path "/56b2a4b2-41b7-4cd4-b17b-ae1a06333e23/2659b17a-9f4f-42d2-8f22-9a89c81b5cec"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 134.62 55.88)
+		(size 20.32 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d47da13a-45aa-46c7-a531-edddfda5516d")
+		(property "Sheetname" "Servo0"
+			(at 134.62 55.1684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "servo_output.kicad_sch"
+			(at 134.62 66.6246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GNDservo" input
+			(at 134.62 63.5 180)
+			(uuid "5832c2bd-9b42-49f2-8170-14388a9ac6f3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Signal" input
+			(at 134.62 60.96 180)
+			(uuid "ecc520b7-0060-4eed-99bc-268a5a7c6a34")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vservo" input
+			(at 134.62 58.42 180)
+			(uuid "d7f81531-27d2-4fef-bddf-52748a42c538")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "YAMMU_ControlBoard_v05"
+				(path "/56b2a4b2-41b7-4cd4-b17b-ae1a06333e23/2659b17a-9f4f-42d2-8f22-9a89c81b5cec"
+					(page "0")
+				)
+			)
+		)
+	)
+)

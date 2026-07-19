@@ -1,0 +1,13 @@
+(version 1)
+
+
+(rule ignore_user_tracks_only
+    (condition "(A.Type == 'Track' && A.existsOnLayer('*.UserCuDrawing')) ||(B.Type == 'Track' && B.existsOnLayer('*.UserCuDrawing'))")
+    
+    (constraint clearance (min -1mm))
+    (constraint physical_clearance (min -1mm))
+    (constraint hole_clearance (min -1mm))
+    (constraint edge_clearance (min -1mm))
+
+    (severity ignore)
+)
