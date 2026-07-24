@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1200"
+   height="400"
+   viewBox="0 0 1200 400"
+   role="img"
+   aria-labelledby="title desc"
+   version="1.1"
+   id="svg52"
+   sodipodi:docname="hero - Kopie.svg"
+   inkscape:version="1.4.4 (dcaf3e7, 2026-05-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview52"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.0041667"
+     inkscape:cx="412.28216"
+     inkscape:cy="16.431535"
+     inkscape:window-width="2560"
+     inkscape:window-height="1369"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg52" />
+  <title
+     id="title">YAMMU — Yet Another Multi-Material Unit</title>
+  <desc
+     id="desc">Eight filament paths in twin drawers feed through two BLDC drives inside a heated Voron-style enclosure.</desc>
+  <defs
+     id="defs1">
+    <pattern
+       id="hatch"
+       width="10"
+       height="10"
+       patternUnits="userSpaceOnUse"
+       patternTransform="rotate(45)">
+      <line
+         x1="0"
+         y1="0"
+         x2="0"
+         y2="10"
+         stroke="#263128"
+         stroke-width="2"
+         id="line1" />
+    </pattern>
+  </defs>
+  <rect
+     width="1200"
+     height="400"
+     rx="24"
+     fill="#0b0e0c"
+     id="rect1" />
+  <path
+     d="M0 310H1200"
+     stroke="#263128"
+     id="path1" />
+  <path
+     d="M742 0V400"
+     stroke="#263128"
+     id="path2" />
+  <text
+     x="62"
+     y="52"
+     fill="#88b780"
+     font-family="ui-monospace, SFMono-Regular, Menlo, monospace"
+     font-size="16px"
+     letter-spacing="2"
+     id="text2">OPEN HARDWARE · MULTI-MATERIAL SYSTEM</text>
+  <text
+     x="62"
+     y="234"
+     fill="#f3f5f1"
+     font-family="'-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif"
+     font-size="29px"
+     font-weight="600"
+     id="text23"><tspan
+       sodipodi:role="line"
+       id="tspan52"
+       x="62"
+       y="234">Eight filament paths.</tspan><tspan
+       sodipodi:role="line"
+       id="tspan53"
+       x="62"
+       y="270.25">Twin drawers</tspan><tspan
+       sodipodi:role="line"
+       x="62"
+       y="306.5"
+       id="tspan54">One heated enclosure..</tspan></text>
+  <g
+     transform="translate(62,330)"
+     id="g25">
+    <rect
+       width="218"
+       height="38"
+       rx="19"
+       fill="#172019"
+       stroke="#3d8434"
+       id="rect24"
+       x="0"
+       y="0" />
+    <circle
+       cx="20"
+       cy="19"
+       r="5"
+       fill="#e65a4f"
+       id="circle24" />
+    <text
+       x="36"
+       y="25"
+       fill="#d8ded8"
+       font-family="ui-monospace, SFMono-Regular, Menlo, monospace"
+       font-size="14px"
+       id="text25">WORK IN PROGRESS</text>
+  </g>
+  <path
+     d="m 1137.6215,144.49359 c 2.223,6.68997 -30.8493,167.32563 -35.5341,172.59328 -4.6849,5.26765 -160.41876,56.92489 -167.32661,55.50257 -6.90787,-1.42228 -129.56945,-110.40074 -131.79244,-117.0907 -2.223,-6.68997 30.84927,-167.325639 35.53413,-172.593285 4.68487,-5.267644 160.41873,-56.924885 167.32662,-55.502567 6.9228,1.347511 129.5694,110.400742 131.7924,117.090702 z"
+     fill="#3d8434"
+     stroke="#6fa866"
+     stroke-width="2.17701"
+     stroke-linejoin="round"
+     id="path3"
+     style="stroke:none;fill:#42843d;fill-opacity:1" />
+  <g
+     transform="matrix(1.3985693,0.28784693,-0.28756594,1.397204,279.93329,-806.45421)"
+     fill="#f3f5f1"
+     id="g13"
+     style="stroke-width:0.301509">
+    <path
+       d="m 524.77867,627.09606 h 17.04881 L 581.20003,559.89 h -17.04882 z"
+       id="path4"
+       style="stroke-width:0.301509" />
+    <path
+       d="m 585.13728,559.89 -11.4849,19.60389 8.51709,47.60217 h 14.99247 z"
+       id="path5"
+       style="stroke-width:0.301509" />
+    <path
+       d="M 550.16993,577.03444 538.68502,596.63833 532.10993,559.89 h 14.99247 z"
+       id="path6"
+       style="stroke-width:0.301509" />
+    <path
+       d="m 565.12797,594.04443 h 7.66546 l 2.60342,14.55054 h -18.79328 z"
+       id="path7"
+       style="stroke-width:0.301509" />
+    <path
+       d="m 606.82671,559.89 12.02466,67.20606 h 14.76471 L 621.59141,559.89 Z"
+       id="path8"
+       style="stroke-width:0.301509" />
+    <path
+       d="m 658.04554,559.89 12.02467,67.20606 H 655.3055 L 643.28084,559.89 Z"
+       id="path9"
+       style="stroke-width:0.301509" />
+    <path
+       d="m 588.59965,559.89 h 14.7647 l 6.01233,33.60303 h -14.76471 z"
+       id="path10"
+       style="stroke-width:0.301509" />
+    <path
+       d="m 625.05378,559.89 h 14.7647 l 6.01233,33.60303 H 631.0661 Z"
+       id="path11"
+       style="stroke-width:0.301509" />
+    <path
+       d="m 673.53257,627.09606 -6.01232,-33.60303 h 14.76469 l 6.01233,33.60303 z"
+       id="path12"
+       style="stroke-width:0.301509" />
+    <path
+       d="m 691.75963,627.09606 h 14.7647 L 694.49968,559.89 h -14.7647 z"
+       id="path13"
+       style="stroke-width:0.301509" />
+  </g>
+  <text
+     x="60.503349"
+     y="177.34949"
+     fill="#f3f5f1"
+     font-family="'-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif"
+     font-size="131.563px"
+     font-weight="600"
+     id="text57"
+     style="stroke-width:0.999998;fill:#42843d;fill-opacity:1"><tspan
+       sodipodi:role="line"
+       x="60.503349"
+       y="177.34949"
+       id="tspan57"
+       style="stroke-width:0.999998;fill:#42843d;fill-opacity:1">YAMMU</tspan></text>
+</svg>
