@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">PCB manufacturing file flow</title>
+  <desc id="desc">KiCad source produces Gerbers for bare PCB fabrication, while BOM and CPL files add optional SMT assembly instructions.</desc>
+  <rect width="1200" height="300" rx="24" fill="#F3F0E7"/>
+  <g fill="none" stroke="#B8B5AA" stroke-width="3">
+    <path d="M278 133H348"/>
+    <path d="M568 133H638"/>
+    <path d="M858 133H928"/>
+    <path d="M748 214V250H1038V214"/>
+  </g>
+  <g fill="#C7922B">
+    <path d="M348 133l-13-8v16z"/>
+    <path d="M638 133l-13-8v16z"/>
+    <path d="M928 133l-13-8v16z"/>
+  </g>
+
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+    <g transform="translate(58 62)">
+      <rect width="220" height="142" rx="16" fill="#101916"/>
+      <text x="22" y="36" fill="#C7922B" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" font-weight="700" letter-spacing="1.4">01 · DESIGN</text>
+      <text x="22" y="77" fill="#F3F0E7" font-size="25" font-weight="700">KiCad source</text>
+      <text x="22" y="108" fill="#9EB2A9" font-size="16">schematic + PCB</text>
+    </g>
+    <g transform="translate(348 62)">
+      <rect width="220" height="142" rx="16" fill="#24745B"/>
+      <text x="22" y="36" fill="#F4C95D" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" font-weight="700" letter-spacing="1.4">02 · RELEASE</text>
+      <text x="22" y="77" fill="#FFFFFF" font-size="25" font-weight="700">Gerber ZIP</text>
+      <text x="22" y="108" fill="#D1E4DA" font-size="16">copper · mask · drill</text>
+    </g>
+    <g transform="translate(638 62)">
+      <rect width="220" height="142" rx="16" fill="#D7B54A"/>
+      <text x="22" y="36" fill="#55430E" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" font-weight="700" letter-spacing="1.4">03 · FABRICATION</text>
+      <text x="22" y="77" fill="#101916" font-size="25" font-weight="700">Bare PCB</text>
+      <text x="22" y="108" fill="#594B22" font-size="16">board house</text>
+    </g>
+    <g transform="translate(928 62)">
+      <rect width="220" height="142" rx="16" fill="#101916"/>
+      <text x="22" y="36" fill="#C7922B" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" font-weight="700" letter-spacing="1.4">04 · OPTIONAL</text>
+      <text x="22" y="77" fill="#F3F0E7" font-size="25" font-weight="700">SMT assembly</text>
+      <text x="22" y="108" fill="#9EB2A9" font-size="16">matched + inspected</text>
+    </g>
+    <rect x="781" y="236" width="184" height="42" rx="10" fill="#E0DDD2"/>
+    <text x="873" y="263" text-anchor="middle" fill="#33413B" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15" font-weight="700">BOM + CPL</text>
+  </g>
+</svg>

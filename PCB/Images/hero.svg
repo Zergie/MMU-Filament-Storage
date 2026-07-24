@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-labelledby="title desc">
+  <title id="title">YAMMU Control Board v05</title>
+  <desc id="desc">A technical title board showing the YAMMU electronics release, manufacturing files, and a simplified view of its connector-rich control PCB.</desc>
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#273C35" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="380" rx="26" fill="#101916"/>
+  <rect width="1200" height="380" rx="26" fill="url(#grid)" opacity=".52"/>
+
+  <g transform="translate(58 52)">
+    <text x="0" y="0" dominant-baseline="hanging" fill="#C7922B" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="17" font-weight="700" letter-spacing="2">OPEN HARDWARE · PCB / REV 05</text>
+    <text x="0" y="60" dominant-baseline="hanging" fill="#F3F0E7" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="66" font-weight="760">YAMMU</text>
+    <text x="0" y="132" dominant-baseline="hanging" fill="#F3F0E7" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="42" font-weight="620">Control Board</text>
+    <text x="0" y="204" dominant-baseline="hanging" fill="#9EB2A9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="21">KiCad source, fabrication outputs,</text>
+    <text x="0" y="235" dominant-baseline="hanging" fill="#9EB2A9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="21">SMT data &amp; interactive assembly guide</text>
+    <g transform="translate(0 292)" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15" font-weight="650">
+      <text x="0" y="0" fill="#F3F0E7">100 × 60 MM</text>
+      <text x="142" y="0" fill="#4E6F61">/</text>
+      <text x="168" y="0" fill="#F3F0E7">4 LAYERS</text>
+      <text x="278" y="0" fill="#4E6F61">/</text>
+      <text x="304" y="0" fill="#F3F0E7">1.6 MM</text>
+    </g>
+  </g>
+
+  <g transform="translate(684 46)">
+    <rect x="0" y="0" width="458" height="288" rx="20" fill="#24745B" stroke="#8DAE75" stroke-width="3"/>
+    <circle cx="34" cy="34" r="14" fill="#101916" stroke="#C7922B" stroke-width="7"/>
+    <circle cx="424" cy="34" r="14" fill="#101916" stroke="#C7922B" stroke-width="7"/>
+    <circle cx="34" cy="254" r="14" fill="#101916" stroke="#C7922B" stroke-width="7"/>
+    <circle cx="424" cy="254" r="14" fill="#101916" stroke="#C7922B" stroke-width="7"/>
+
+    <g fill="#E7E4D7">
+      <rect x="72" y="21" width="44" height="34" rx="5"/>
+      <rect x="124" y="21" width="44" height="34" rx="5"/>
+      <rect x="176" y="21" width="44" height="34" rx="5"/>
+      <rect x="228" y="21" width="44" height="34" rx="5"/>
+      <rect x="293" y="21" width="42" height="47" rx="5"/>
+      <rect x="344" y="21" width="42" height="47" rx="5"/>
+      <rect x="66" y="229" width="46" height="34" rx="5"/>
+      <rect x="120" y="229" width="46" height="34" rx="5"/>
+      <rect x="174" y="229" width="46" height="34" rx="5"/>
+      <rect x="317" y="226" width="42" height="38" rx="5"/>
+      <rect x="367" y="226" width="42" height="38" rx="5"/>
+    </g>
+
+    <rect x="192" y="86" width="202" height="118" rx="9" fill="#1E9B61" stroke="#D7B54A" stroke-width="2"/>
+    <rect x="257" y="115" width="66" height="54" rx="5" fill="#17201D"/>
+    <rect x="216" y="109" width="24" height="24" rx="3" fill="#ACB7AE"/>
+    <rect x="343" y="104" width="25" height="18" rx="3" fill="#E6E2D5"/>
+
+    <g fill="#D7B54A">
+      <circle cx="210" cy="94" r="4"/><circle cx="226" cy="94" r="4"/><circle cx="242" cy="94" r="4"/><circle cx="258" cy="94" r="4"/><circle cx="274" cy="94" r="4"/><circle cx="290" cy="94" r="4"/><circle cx="306" cy="94" r="4"/><circle cx="322" cy="94" r="4"/><circle cx="338" cy="94" r="4"/><circle cx="354" cy="94" r="4"/><circle cx="370" cy="94" r="4"/>
+      <circle cx="210" cy="196" r="4"/><circle cx="226" cy="196" r="4"/><circle cx="242" cy="196" r="4"/><circle cx="258" cy="196" r="4"/><circle cx="274" cy="196" r="4"/><circle cx="290" cy="196" r="4"/><circle cx="306" cy="196" r="4"/><circle cx="322" cy="196" r="4"/><circle cx="338" cy="196" r="4"/><circle cx="354" cy="196" r="4"/><circle cx="370" cy="196" r="4"/>
+    </g>
+
+    <g fill="#17201D">
+      <rect x="69" y="88" width="82" height="38" rx="6"/>
+      <rect x="69" y="140" width="82" height="38" rx="6"/>
+      <rect x="91" y="190" width="42" height="25" rx="4"/>
+    </g>
+
+    <g fill="none" stroke="#C7922B" stroke-width="3" stroke-linecap="round">
+      <path d="M151 107H177V79H250"/>
+      <path d="M151 159H174V211H271"/>
+      <path d="M294 68V81"/>
+      <path d="M365 68V81"/>
+      <path d="M112 215V229"/>
+      <path d="M220 246H291V215"/>
+    </g>
+    <g fill="#F3F0E7" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" font-weight="700" letter-spacing="1">
+      <text x="76" y="112">POWER</text>
+      <text x="77" y="164">HEATER</text>
+      <text x="242" y="149">RP2040</text>
+      <text x="74" y="282">MOTORS · FANS · SERVOS · SENSORS</text>
+    </g>
+  </g>
+</svg>
