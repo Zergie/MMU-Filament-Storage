@@ -10,8 +10,10 @@
   * ELSE
     * Bootloader offset = `No bootloader`
   * Communication interface = `USBSERIAL`
+  * GPIO pins to set at micro-controller startup = `gpio4,gpio7`
 
-<img width="709" height="314" alt="image" src="https://github.com/user-attachments/assets/d39472b8-35fa-4afd-a485-3052f54069e5" />
+<img width="791" height="242" alt="image" src="https://github.com/user-attachments/assets/264d7314-857f-425b-8c71-3d5f7572377b" />
+
 
 3. Once the configuration is selected, press `q` to exit,  and "Yes" when  asked to save the configuration.
 4. Run the command `make`
