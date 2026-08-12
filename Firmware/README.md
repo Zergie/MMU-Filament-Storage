@@ -39,3 +39,31 @@
     ```
     mmu_gear_rotation_distances: [1, 1, 1, 1, 1, 1, 1, 1]
     ```
+
+# Calibration Steps
+
+```mermaid
+graph TD;
+    Hardware_Working --> MMU_CALIBRATE_BLDC["MMU_CALIBRATE_BLDC<br/><span style='font-size:10px'>(to map pwm to rpm values))</span>"]
+    MMU_CALIBRATE_BLDC --> MMU_CALIBRATE_GEAR["MMU_CALIBRATE_GEAR<br/><span style='font-size:10px'>(to accurately set rotation distance))</span>"]
+    MMU_CALIBRATE_GEAR --> MMU_CALIBRATE_BOWDEN["MMU_CALIBRATE_ENCODER<br/><span style='font-size:10px'>(if MMU has an encoder)</span>"]
+    MMU_CALIBRATE_BOWDEN --> MMU_CALIBRATE_GATES["MMU_CALIBRATE_GATES<br/><span style='font-size:10px'>(available if MMU has an encoder)</span>"]
+
+    style Hardware_Working stroke-width:0px
+```
+
+## Calibate BLDC
+Before calibrating the gear rotation distance, calibrate the BLDC motor. Select a gate belonging to the BLDC unit you want to calibrate and run:
+
+`MMU_CALIBRATE_BLDC MOTOR=<0 or 1>`
+
+The calibration automatically determines the minimum usable PWM and measures the motor RPM across the available PWM range. The resulting PWM-to-RPM map is saved to mmu_vars.cfg and is used by Happy Hare for accurate BLDC speed control. Repeat the calibration for both BLDC units.
+
+## Calibrate rotation distance
+see [Happy Hare wiki](https://github.com/moggieuk/Happy-Hare/wiki/MMU-Calibration-TypeB#---step-1-calibrate-rotation-distance-of-gear-0-stepper)
+
+## Calibrate bowden length
+see [Happy Hare wiki](https://github.com/moggieuk/Happy-Hare/wiki/MMU-Calibration-TypeB#---step-3-calibrate-bowden-length)
+
+## Calibrating gates
+see [Happy Hare wiki](https://github.com/moggieuk/Happy-Hare/wiki/MMU-Calibration-TypeB#---step-4-calibrating-individual-gates)
