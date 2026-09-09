@@ -1,0 +1,2 @@
+# YAMMU's build client; Fusion's child has its own environment and requirements.
+-r FusionAddons/FusionHeadless/cli/requirements.txt

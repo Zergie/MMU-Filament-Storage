@@ -2,3 +2,5 @@
 obj/
 CFD/
 *.code-workspace
+__pycache__/
+*.py[cod]
